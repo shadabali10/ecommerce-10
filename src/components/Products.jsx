@@ -101,9 +101,8 @@ const Products = () => {
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item lead">$ {product.price}</li>
-                  {/* <li className="list-group-item">Dapibus ac facilisis in</li>
-                    <li className="list-group-item">Vestibulum at eros</li> */}
+                  <li className="list-group-item lead">₹ {Math.floor(product.price*80)}</li>
+                
                 </ul>
                 <div className="card-body">
                   <Link to={"/product/" + product.id} className="btn btn-dark m-1">

@@ -1,0 +1,80 @@
+.landing-page{
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.landing-text{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 100px;  
+} 
+
+h2,h1{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.landing-text h2{
+    font-size: 16px;
+    margin-left: 100px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.landing-text h1{
+    font-size: 110px;
+}
+
+.landing-text h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.landing-button {
+    display: inline-block;
+    padding: 5px 10px;
+    /* color: #fff; */
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 150px;
+    padding: 10px 15px;
+    border: .5px solid black;
+    border-radius: 50px;
+  }
+
+  .landing-button:hover{
+      background-color: black;
+      color: white;
+  }
+
+  .landing-image{
+    height: 100%;
+    width: 55%;
+  }
+
+  .landing-image img{
+    height: 100%;
+    width: 100%;
+    
+  }
+
+  .nav-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 150px;
+    padding: 10px 15px;
+    border: .5px solid black;
+    border-radius: 50px;
+  }
+
+  
